@@ -1,8 +1,8 @@
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
-    define(['module', 'exports', 'react', 'url', 'es6-promise', 'shallowequal', './tokenizeUrl', 'tableau-api'], factory);
+    define(['module', 'exports', 'react', 'url', 'es6-promise', 'shallowequal', './tokenizeUrl', './tableau-api'], factory);
   } else if (typeof exports !== "undefined") {
-    factory(module, exports, require('react'), require('url'), require('es6-promise'), require('shallowequal'), require('./tokenizeUrl'), require('tableau-api'));
+    factory(module, exports, require('react'), require('url'), require('es6-promise'), require('shallowequal'), require('./tokenizeUrl'), require('./tableau-api'));
   } else {
     var mod = {
       exports: {}
